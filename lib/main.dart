@@ -43,9 +43,7 @@ class _MyWidgetState extends State<MyWidget> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   GestureDetector(
-                    onTap: () {
-                   
-                    },
+                    onTap: () {},
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
@@ -86,9 +84,7 @@ class _MyWidgetState extends State<MyWidget> {
                     height: 50,
                   ),
                   GestureDetector(
-                    onTap: () {
-                      
-                    },
+                    onTap: () {},
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
